@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Score Calculator</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="marquee-container">
+        <marquee behavior="scroll" direction="left">
+            🌟 Financial Score and Advice: "Keep your savings above 20% to secure your future!" | "Avoid overspending on entertainment!" 🌟
+        </marquee>
+    </div>
+    <div class="container">
+        <h1>Financial Score Calculator</h1>
+        <form id="financial-form">
+            <label for="income">Monthly Income (₹):</label>
+            <input type="number" id="income" name="income" placeholder="Enter your income" required>
+
+            <label for="savings">Savings (₹):</label>
+            <input type="number" id="savings" name="savings" placeholder="Enter your savings" required>
+
+            <label for="food">Food Expenditure (₹):</label>
+            <input type="number" id="food" name="food" placeholder="Enter food expenses" required>
+
+            <label for="travel">Travel Expenditure (₹):</label>
+            <input type="number" id="travel" name="travel" placeholder="Enter travel expenses" required>
+
+            <label for="education">Education Expenditure (₹):</label>
+            <input type="number" id="education" name="education" placeholder="Enter education expenses" required>
+
+            <label for="entertainment">Entertainment Expenditure (₹):</label>
+            <input type="number" id="entertainment" name="entertainment" placeholder="Enter entertainment expenses" required>
+
+            <label for="utilities">Utilities Expenditure (₹):</label>
+            <input type="number" id="utilities" name="utilities" placeholder="Enter utilities expenses" required>
+
+            <label for="groceries">Groceries Expenditure (₹):</label>
+            <input type="number" id="groceries" name="groceries" placeholder="Enter groceries expenses" required>
+
+            <label for="healthcare">Healthcare Expenditure (₹):</label>
+            <input type="number" id="healthcare" name="healthcare" placeholder="Enter healthcare expenses" required>
+
+            <label for="loan_payments">Loan Payments (₹):</label>
+            <input type="number" id="loan_payments" name="loan_payments" placeholder="Enter loan payments" required>
+
+            <label for="credit_card_spending">Credit Card Spending (₹):</label>
+            <input type="number" id="credit_card_spending" name="credit_card_spending" placeholder="Enter credit card spending" required>
+
+            <button type="button" id="calculate-btn">Calculate Score</button>
+        </form>
+        <div id="results">
+            <h2>Results</h2>
+            <p id="financial-score"></p>
+            <p id="insights"></p>
+        </div>
+    </div>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
